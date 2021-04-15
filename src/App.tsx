@@ -3,6 +3,7 @@ import "./App.css";
 
 function App() {
   const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+  const operations = ["+", "-", "*", "/"];
 
   return (
     <div className="App">
@@ -15,7 +16,11 @@ function App() {
             })}
           </div>
         </div>
-        <div className="rightSide"></div>
+        <div className="rightSide">
+          {operations.map((val, key) => {
+            return <div id="operations"> {val} </div>;
+          })}
+        </div>
       </div>
     </div>
   );

@@ -32,7 +32,8 @@
   flex-wrap: wrap;
 }
 
-#singleNumber {
+#singleNumber,
+#operations {
   background-color: cornflowerblue;
   width: 78px;
   height: 78px;
