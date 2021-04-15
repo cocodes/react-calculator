@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
@@ -7,9 +6,11 @@ function App() {
 
   return (
     <div className="App">
-      {numbers.map((val, key) => {
-        return <div> {val}</div>;
-      })}
+      <div className="numbers">
+        {numbers.map((val, key) => {
+          return <div id="singleNumber"> {val}</div>;
+        })}
+      </div>
     </div>
   );
 }
