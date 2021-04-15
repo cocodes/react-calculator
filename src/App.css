@@ -5,6 +5,24 @@
   align-items: center;
 }
 
+.calculator {
+  display: flex;
+  width: 320px;
+  height: 320px;
+}
+
+.leftSide {
+  flex: 75%;
+  height: 100%;
+  background-color: darkcyan;
+}
+
+.rightSide {
+  flex: 25%;
+  height: 100%;
+  background-color: crimson;
+}
+
 .numbers {
   width: 240px;
   height: 240px;

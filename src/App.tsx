@@ -6,10 +6,16 @@ function App() {
 
   return (
     <div className="App">
-      <div className="numbers">
-        {numbers.map((val, key) => {
-          return <div id="singleNumber"> {val}</div>;
-        })}
+      <div className="calculator">
+        <div className="leftSide">
+          <div id="clearBtn"></div>
+          <div className="numbers">
+            {numbers.map((val, key) => {
+              return <div id="singleNumber"> {val}</div>;
+            })}
+          </div>
+        </div>
+        <div className="rightSide"></div>
       </div>
     </div>
   );
