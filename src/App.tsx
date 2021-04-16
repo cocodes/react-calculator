@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <div className="calculator">
         <div className="leftSide">
-          <div id="clearBtn"></div>
+          <div id="clearBtn">Clear</div>
           <div className="numbers">
             {numbers.map((val, key) => {
               return <div id="singleNumber"> {val}</div>;
